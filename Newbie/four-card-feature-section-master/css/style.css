@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -30,141 +29,69 @@ header .title-bold {
 
 header p {
     line-height: 1.5rem;
+    color: hsl(229, 6%, 66%);
 }
 
-.cards .item1 {
+
+/* CARDS */
+.cards {
     width: 300px;
-    height: 200px;
-    background: #fff;
-    border-top: 4px solid hsl(180, 62%, 55%);
-    border-radius: 5px;
     margin: 0 auto;
-    -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    margin-bottom: 20px;
+    text-align: start;
 }
 
-.cards .item2 {
-    width: 300px;
-    height: 200px;
-    background: #fff;
-    border-top: 4px solid hsl(0, 78%, 62%);
-    border-radius: 5px;
-    margin: 0 auto;
-    -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    margin-bottom: 20px;
-}
-
-.cards .item3 {
+.card {
     width: 100%;
     height: 200px;
     background: #fff;
-    border-top: 4px solid hsl(34, 97%, 64%);
-    border-radius: 5px;
-    margin: 0 auto;
     -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    margin-bottom: 20px;
+    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);   
 }
 
-.cards .item4 {
-    width: 300px;
-    height: 200px;
-    background: #fff;
-    border-top: 4px solid hsl(212, 86%, 64%);
-    border-radius: 5px;
-    margin: 0 auto;
-    -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    margin-bottom: 20px;
-=======
-body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: hsl(234, 12%, 34%);
-    background: hsl(0, 0%, 98%);
+.cards .titulo-bold {
+    font-size: 22px;
+    margin: 20px 0 0 20px;    
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
-    margin: 50px 0;
-}
-
-header .title-light {
-    font-weight: lighter;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-header .title-bold {
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-header p {
+.cards .titulo-light {
+    width: 250px;
+    font-size: 14px;
+    margin: 10px 0 0 20px;
+    color: hsl(229, 6%, 66%);
     line-height: 1.5rem;
 }
 
-.cards .item1 {
-    width: 300px;
-    height: 200px;
-    background: #fff;
+.cards ul li img {
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.cards .item1 {    
     border-top: 4px solid hsl(180, 62%, 55%);
     border-radius: 5px;
     margin: 0 auto;
-    -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
 
 .cards .item2 {
-    width: 300px;
-    height: 200px;
-    background: #fff;
     border-top: 4px solid hsl(0, 78%, 62%);
     border-radius: 5px;
     margin: 0 auto;
-    -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
 
 .cards .item3 {
-    width: 100%;
-    height: 200px;
-    background: #fff;
     border-top: 4px solid hsl(34, 97%, 64%);
     border-radius: 5px;
     margin: 0 auto;
-    -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
 
 .cards .item4 {
-    width: 300px;
-    height: 200px;
-    background: #fff;
     border-top: 4px solid hsl(212, 86%, 64%);
     border-radius: 5px;
     margin: 0 auto;
-    -webkit-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 50px -30px rgba(0,0,0,0.75);
     margin-bottom: 20px;
->>>>>>> 7db9b7e097845926dd1431a40db60f25f62bed37
 }
