@@ -51,13 +51,13 @@ header p {
 
 .cards .titulo-bold {
     font-size: 22px;
-    margin: 20px 0 0 20px;    
+    margin: 20px 0 0 30px;    
 }
 
 .cards .titulo-light {
     width: 250px;
     font-size: 14px;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 30px;
     color: hsl(229, 6%, 66%);
     line-height: 1.5rem;
 }
