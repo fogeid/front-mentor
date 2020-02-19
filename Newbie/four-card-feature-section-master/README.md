@@ -2,6 +2,8 @@
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
+Deploy: https://frontmentor-1.netlify.com/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
