@@ -147,12 +147,17 @@ body {
         padding: 40px 0;
     }
 
+    .section-two {
+        border-radius: 0 0 0 5px;
+    }
+
     .section-two .container, .section-three .container {
         width: 80%;
     }
 
     .section-three {
         margin-bottom: 0;
+        border-radius: 0 0 5px 0;
     }
 
 }
