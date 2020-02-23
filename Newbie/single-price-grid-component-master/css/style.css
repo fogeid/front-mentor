@@ -103,3 +103,56 @@ body {
     color: rgb(255, 255, 255, 0.5);
     margin-bottom: 5px;
 }
+
+/* BREAKPOINT DESTKTOP */
+@media (min-width: 992px) {
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .section-one {
+        padding: 50px 0;
+    }
+
+    .section-one h1 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .section-one h2 {
+        font-size: 1.15rem;
+        margin-bottom: 20px;
+    }
+
+    .section-one p {
+        font-size: 1.05rem;
+        line-height: 2rem;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .section-two, .section-three {
+        width: 50%;
+        padding: 40px 0;
+    }
+
+    .section-two .container, .section-three .container {
+        width: 80%;
+    }
+
+    .section-three {
+        margin-bottom: 0;
+    }
+
+}
