@@ -89,7 +89,7 @@ body {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* BREAKPOINT DESKTOP */
+/* BREAKPOINT DESKTOP BY DIEGO BATISTA */
 @media (min-width: 992px) {
     body {
         max-width: 100%;
