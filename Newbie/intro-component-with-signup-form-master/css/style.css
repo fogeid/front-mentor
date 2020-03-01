@@ -105,9 +105,10 @@ body {
     line-height: 1.5rem;
 }
 
-.form .termo span {
+.form .termo a {
     color: var(--red);
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* BREAKPOINT DESTKTOP */
