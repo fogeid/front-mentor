@@ -1,0 +1,109 @@
+:root {
+    --red: hsl(0, 100%, 74%) ;
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --g-blue: hsl(246, 25%, 77%);
+}
+
+body {
+    background-color: var(--red);
+    background-image: url(../images/bg-intro-mobile.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* INFORMATION */
+.info {
+    text-align: center;
+    padding: 100px 0 50px 0;
+    color: #fff;
+}
+
+.info h1 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+.info p {
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+}
+
+/* FORM */
+.form .btn-test {
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    background: var(--blue);
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: lighter;
+    line-height: 1.8rem;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form .btn-test span {
+    font-weight: bold;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    align-items: center;
+    border-radius: 10px;
+    margin: 30px 0 50px 0;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form input {
+    width: 280px;
+    padding: 20px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.form #first-name {
+    margin-top: 20px;
+}
+
+.form input::placeholder {
+    color: var(--dark-blue);
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.form .btn-cadastro {
+    width: 300px;
+    padding: 20px;
+    background: var(--green);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0px 8px 0px 0px hsl(154, 57%, 44%);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.form .termo {
+    width: 280px;
+    font-size: .8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #b3b3b3;
+    line-height: 1.5rem;
+}
+
+.form .termo span {
+    color: var(--red);
+    font-weight: bold;
+}
